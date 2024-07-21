@@ -11,5 +11,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<http:listener doc:name="Listener" doc:id="6a0f1c66-1ceb-4c3d-908d-5a068648982d" config-ref="HTTP_Listener_config" path="/git"/>
 		<logger level="INFO" doc:name="Logger" doc:id="acc46209-12c9-42bc-b38c-5ee22b848cc1" message="sample flow"/>
 		<set-payload value="cicd sample project" doc:name="Set Payload" doc:id="6c015dfc-253d-4214-9a0c-aebc8fa4e2a1" />
+		<logger level="INFO" doc:name="Logger" doc:id="acc46209-12c9-42bc-b38c-5ee22b848cc1" message="sample flow"/>
 	</flow>
 </mule>
